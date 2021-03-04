@@ -1,0 +1,19 @@
+html, body {
+    width: 325px;
+}
+
+table {
+    width: 100%;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
+
+caption {
+    font-size: larger;
+}

@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "watchlists",
+    "version": "1.0",
+
+    "description": "Displays current stock data of a watchlist",
+
+    "icons": {
+      "48": "icons/icon.svg"
+    },
+
+    "browser_action": {
+        "default_icon": "icons/icon.svg",
+        "default_title": "Watchlists",
+        "default_popup": "popup/watchlists.html"
+    },
+
+    "permissions": [
+      "storage",
+      "https://*.yahoo.com/*"
+    ],
+
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+    }    
+}
