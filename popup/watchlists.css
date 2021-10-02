@@ -1,5 +1,5 @@
 html, body {
-    width: 325px;
+    width: auto;
 }
 
 table {
@@ -16,4 +16,8 @@ table {
 
 caption {
     font-size: larger;
+}
+
+* {
+    padding: 3px;
 }
